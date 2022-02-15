@@ -1,0 +1,32 @@
+
+.container-terreno  {
+  max-width: 800px;
+  height: 100vh;
+  display: grid;
+  color:white;
+  gap: 10px;
+  background-color:grey;
+  grid-template-areas:
+    'Cozinha  Cozinha  Cozinha  Cozinha  Cozinha  Cozinha  Cozinha  Cozinha  Cozinha  Cozinha  Cozinha  Cozinha'
+    'Quarto  Quarto  Quarto  Quarto    Quarto  Quarto  Quarto  Quarto    Quarto  Quarto  Banheiro  Banheiro'
+    'Quarto  Quarto  Quarto  Quarto    Quarto  Quarto  Quarto  Quarto    Quarto  Quarto  Banheiro  Banheiro';
+}
+
+.comodo-1,  .comodo-2,  .comodo-3  {
+    background-color:orange;
+    display:  grid;
+    justify-items:  center;
+    align-items:  center;
+}
+
+.comodo-1{
+    grid-area:  Cozinha;
+}
+
+.comodo-2{
+    grid-area:  Quarto;
+}
+
+.comodo-3{
+    grid-area:  Banheiro;
+}
